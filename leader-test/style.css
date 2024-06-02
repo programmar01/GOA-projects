@@ -7,13 +7,15 @@
     font-size: 1.1rem;
     color: white;
     font-family: 'Roboto';
-    
+
 }
 
-html{
+body{
+    background-color: black ;
+}
+html, body {
     scroll-behavior: smooth;
 }
-
 nav{
     width: 100%;
     height: 130px;
@@ -160,7 +162,6 @@ nav{
         -moz-box-shadow: 0px 0px 19px 54px rgb(255, 255, 255);
         box-shadow: 0px 0px 15px 49px rgb(255, 255, 255);
     }
-
 }
 
 
@@ -179,13 +180,3 @@ nav{
     align-items: center;
     justify-content: center;
 }
-
-
-
-
-
-
-
-
-
-
